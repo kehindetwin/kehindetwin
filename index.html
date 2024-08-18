@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+
+    <form>
+      <div>
+        <label for="name">Name </label><br>
+        <input  type="text" id="name"  placeholder="Enter your Fullname"  name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="name">Username </label><br>
+        <input type="text" id="username" name="username" />
+      </div>
+      <br />
+      <div>
+        <label for="birthday"> Birthday</label><br>
+        <input type="date" id="birthday" name="birthday" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="file"> File </label><br>
+        <input type="file" id="file" name="file" mutiple="mutiple" />
+      </div>
+      <br />
+      <div>
+        <label for="select">Country</label><br>
+        <select id="country" name="country">
+          <option value="country">Country</option>
+          <option value="ghana">Ghana</option>
+          <option value="united kingdom ">United Kingdom</option>
+          <option value="nigeria">Nigeria</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" />
+      </div>
+      <br />
+      <div>
+        <label for="submit"> Click to Submit</label><br>
+        <button>Submit Form</button>
+      </div>
+      <br />
+      <div>
+        <label for="tcondition">
+          <input type="checkbox" id="tcondition" name="tcondition" />Terms and Condition
+        </label>
+      </div>
+    </form>
+  </body>
+</html>
