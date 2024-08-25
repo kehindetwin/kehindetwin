@@ -1,10 +1,18 @@
-h1 {
-     color:blue;
-     background-color: white;       
+body{
+     background-color: rgb(167, 167, 246);
+
+     
 }
-label {
-     font-size: 15px;
+h2{
+text-align: center;
 }
-input {
-     color: blue;
+
+button{
+     text-align: center;
+     color: white;
+     background-color: green;
+}
+button:hover{
+     background-color: blue;
+
 }
